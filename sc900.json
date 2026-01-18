@@ -1,0 +1,66 @@
+[
+  { "question": "When I see 'attribute-based membership (city/department/title)' in Entra, I pick what feature?", "answer": "Dynamic groups" },
+  { "question": "When I see 'just-in-time admin / time-based privileged access' in Entra, I pick what feature?", "answer": "Microsoft Entra Privileged Identity Management (PIM)" },
+  { "question": "When I see 'review who still needs access' in Entra, I pick what feature?", "answer": "Access reviews" },
+  { "question": "When I see 'block/allow access using conditions (device, location, risk, app)' in Entra, I pick what feature?", "answer": "Conditional Access" },
+  { "question": "When I see 'risk-based detection and remediation for identities' in Entra, I pick what feature?", "answer": "Microsoft Entra ID Protection" },
+  { "question": "When I see 'password spray protection' in Entra, I pick what feature?", "answer": "Microsoft Entra Password Protection" },
+  { "question": "When I see 'user can reset password without helpdesk' in Entra, I pick what feature?", "answer": "Self-service password reset (SSPR)" },
+  { "question": "SSPR in Entra: name one valid verification method often used (practice card).", "answer": "Email" },
+  { "question": "SSPR in Entra: name another valid verification method often used (practice card).", "answer": "Security questions" },
+  { "question": "If a question mentions 'BYOD allowed + SaaS apps outside corp network' what security model is being described?", "answer": "Identity as the primary security perimeter" },
+  { "question": "AD DS is best described as what kind of identity system?", "answer": "On-premises directory services (single identity for on-prem systems)" },
+  { "question": "If a question mentions 'modern auth, SaaS apps, mobile devices' is AD DS the right answer?", "answer": "No (use Microsoft Entra ID / cloud identity concepts instead)" },
+  { "question": "Hybrid identity sync between AD DS and Entra: what tool is used?", "answer": "Microsoft Entra Connect" },
+  { "question": "External users sign in with Google/Apple/social IDs for SSO: what Entra service?", "answer": "Microsoft Entra External ID" },
+
+  { "question": "User risk vs sign-in risk: 'leaked credentials' is which?", "answer": "User risk" },
+  { "question": "User risk vs sign-in risk: 'atypical travel' is which?", "answer": "Sign-in risk" },
+  { "question": "User risk vs sign-in risk: 'anonymous IP address' is which?", "answer": "Sign-in risk" },
+  { "question": "User risk vs sign-in risk: 'password spray detection during login' is which?", "answer": "Sign-in risk" },
+
+  { "question": "If a question says 'investigate actions / who did what / activity records', which Purview feature?", "answer": "Audit (Premium)" },
+  { "question": "If a question says 'investigate content with cases / legal hold / custodians', which Purview feature family?", "answer": "eDiscovery" },
+  { "question": "If a question says 'create cases and manage eDiscovery at a basic level', which one?", "answer": "eDiscovery (Standard)" },
+  { "question": "If a question says 'custodians (advanced)', which one?", "answer": "eDiscovery (Premium)" },
+
+  { "question": "If a question says 'prevent sensitive info from leaving (email/files/Teams) based on content', which policy?", "answer": "Data Loss Prevention (DLP) policy" },
+  { "question": "If a question says 'prevent two departments from communicating/sharing in Teams', which policy?", "answer": "Information barrier policy" },
+  { "question": "If a question says 'automatically encrypt documents marked sensitive', what do you create?", "answer": "Sensitivity label + sensitivity label policy" },
+  { "question": "If a question says 'retain/delete content for X years; regulatory records; proof of deletion', what do you create?", "answer": "Retention label + retention label policy" },
+  { "question": "If a question says 'detect potential leaks / IP theft by insiders', which Purview solution?", "answer": "Insider risk management" },
+
+  { "question": "Purview Compliance Manager controls: name the three control types.", "answer": "Microsoft-managed controls, shared controls, customer-managed controls" },
+  { "question": "Compliance score in Compliance Manager measures what?", "answer": "Progress toward implementing controls" },
+  { "question": "Independent audit reports/assessments for Microsoft cloud services are found where?", "answer": "Microsoft Service Trust Portal" },
+
+  { "question": "Azure Security Benchmark guidance applied to a specific service is delivered as what?", "answer": "Security baselines" },
+  { "question": "Memory hook: 'Benchmark -> ____'", "answer": "Baseline" },
+
+  { "question": "Microsoft Secure Score provides recommendations for what kind of scope?", "answer": "Microsoft 365 / Entra / Defender (not Azure SQL/Cosmos)" },
+  { "question": "Secure Score: name one supported service area.", "answer": "Microsoft Entra" },
+  { "question": "Secure Score: name another supported service area.", "answer": "Microsoft Teams" },
+
+  { "question": "Meet compliance standards like GDPR/PCI across SaaS apps: which Microsoft solution?", "answer": "Microsoft Defender for Cloud Apps" },
+  { "question": "Defender for Cloud Apps is also known as what category of product?", "answer": "Cloud Access Security Broker (CASB)" },
+
+  { "question": "Web attacks like SQL injection/XSS: which Azure protection?", "answer": "Web Application Firewall (WAF)" },
+  { "question": "Volumetric traffic floods: which Azure protection?", "answer": "Azure DDoS Protection Standard" },
+  { "question": "Subnet/NIC allow/deny rules: which Azure control?", "answer": "Network Security Group (NSG)" },
+  { "question": "Centralized network-level + application-level filtering + outbound SNAT: which Azure service?", "answer": "Azure Firewall" },
+  { "question": "RDP/SSH to VMs via Azure portal without public IPs on VMs: which Azure service?", "answer": "Azure Bastion" },
+  { "question": "Store secrets/keys/certs securely with access control + auditing: which Azure service?", "answer": "Azure Key Vault" },
+
+  { "question": "SIEM + SOAR (collect logs, analytics, playbooks): which Microsoft solution?", "answer": "Microsoft Sentinel" },
+  { "question": "Create visual reports/dashboards in Sentinel: what feature?", "answer": "Workbooks" },
+  { "question": "Cross-signal correlation across identities/endpoints/email/apps: which Microsoft solution?", "answer": "Microsoft Defender XDR" },
+
+  { "question": "CONTRAST: 'Actions -> ?' (Purview)", "answer": "Audit (Premium)" },
+  { "question": "CONTRAST: 'Content -> ?' (Purview)", "answer": "eDiscovery" },
+  { "question": "CONTRAST: 'Sensitive data leakage -> ?'", "answer": "DLP" },
+  { "question": "CONTRAST: 'Departments can't communicate -> ?'", "answer": "Information barriers" },
+  { "question": "CONTRAST: 'User risk example -> ?'", "answer": "Leaked credentials" },
+  { "question": "CONTRAST: 'Sign-in risk example -> ?'", "answer": "Atypical travel" },
+  { "question": "CONTRAST: 'Attribute-based membership -> ?'", "answer": "Dynamic groups" },
+  { "question": "CONTRAST: 'Just-in-time privilege -> ?'", "answer": "PIM" }
+]
