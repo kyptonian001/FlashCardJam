@@ -1,0 +1,302 @@
+[
+  {
+    "section": "AI Concepts",
+    "question": "What is artificial intelligence (AI)?",
+    "answer": "Systems that simulate human intelligence to perform tasks"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is machine learning?",
+    "answer": "AI that learns patterns from data without being explicitly programmed"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is a training dataset?",
+    "answer": "Data used to train a machine learning model"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is an inference?",
+    "answer": "Using a trained model to make predictions"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is supervised learning?",
+    "answer": "Learning from labeled data"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is unsupervised learning?",
+    "answer": "Learning patterns from unlabeled data"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is reinforcement learning?",
+    "answer": "Learning through rewards and penalties"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is a model?",
+    "answer": "A mathematical representation learned from data"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is overfitting?",
+    "answer": "Model performs well on training data but poorly on new data"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is underfitting?",
+    "answer": "Model is too simple to capture data patterns"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is feature engineering?",
+    "answer": "Selecting or transforming input variables for models"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is data labeling?",
+    "answer": "Assigning correct outputs to training data"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is model evaluation?",
+    "answer": "Measuring model performance using metrics"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is responsible AI?",
+    "answer": "Designing AI systems that are fair, transparent, and accountable"
+  },
+  {
+    "section": "AI Concepts",
+    "question": "What is bias in AI?",
+    "answer": "Unfair outcomes caused by skewed data or design"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What Azure service is commonly used for training ML models?",
+    "answer": "Azure Machine Learning"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is AutoML?",
+    "answer": "Automated model selection and tuning"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is classification?",
+    "answer": "Predicting a category or label"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is regression?",
+    "answer": "Predicting a numeric value"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is clustering?",
+    "answer": "Grouping similar data points"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is a confusion matrix used for?",
+    "answer": "Evaluating classification performance"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is accuracy?",
+    "answer": "Proportion of correct predictions"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is precision?",
+    "answer": "How many predicted positives are correct"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is recall?",
+    "answer": "How many actual positives were correctly predicted"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What data split is commonly used for ML training?",
+    "answer": "Training, validation, and test sets"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What Azure tool provides notebooks for ML experimentation?",
+    "answer": "Azure Machine Learning notebooks"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is feature importance?",
+    "answer": "Measure of how much a feature contributes to predictions"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What scenario suits regression best?",
+    "answer": "Predicting prices or quantities"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What scenario suits classification best?",
+    "answer": "Spam detection or image labeling"
+  },
+  {
+    "section": "Machine Learning",
+    "question": "What is responsible AI principle related to explainability?",
+    "answer": "Transparency"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is computer vision?",
+    "answer": "AI that interprets images and video"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What Azure service provides computer vision capabilities?",
+    "answer": "Azure AI Vision"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is image classification?",
+    "answer": "Assigning labels to images"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is object detection?",
+    "answer": "Identifying objects and their locations in images"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is optical character recognition (OCR)?",
+    "answer": "Extracting text from images"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What service extracts printed and handwritten text from images in Azure?",
+    "answer": "OCR in Azure AI Vision"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is facial detection?",
+    "answer": "Detecting human faces in images"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is image tagging?",
+    "answer": "Automatically generating descriptive tags"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is spatial analysis?",
+    "answer": "Analyzing movement and presence in video"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What scenario uses object detection?",
+    "answer": "Counting people or items in an image"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What scenario uses OCR?",
+    "answer": "Reading receipts or invoices"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is responsible AI concern in computer vision?",
+    "answer": "Privacy"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What does image segmentation do?",
+    "answer": "Separates an image into meaningful regions"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What is video analysis?",
+    "answer": "Extracting insights from video streams"
+  },
+  {
+    "section": "Computer Vision",
+    "question": "What Azure service can analyze images without training a model?",
+    "answer": "Azure AI Vision prebuilt models"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is natural language processing (NLP)?",
+    "answer": "AI that understands and processes human language"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What Azure service provides NLP capabilities?",
+    "answer": "Azure AI Language"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is sentiment analysis?",
+    "answer": "Determining positive, negative, or neutral tone"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is key phrase extraction?",
+    "answer": "Identifying important phrases in text"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is named entity recognition (NER)?",
+    "answer": "Identifying people, places, and organizations"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is language detection?",
+    "answer": "Identifying the language of text"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What scenario suits sentiment analysis?",
+    "answer": "Analyzing customer feedback"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is text classification?",
+    "answer": "Categorizing text into predefined labels"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What is responsible AI concern in NLP?",
+    "answer": "Bias and fairness"
+  },
+  {
+    "section": "Natural Language Processing",
+    "question": "What Azure service analyzes speech-to-text?",
+    "answer": "Azure AI Speech"
+  },
+  {
+    "section": "Generative AI",
+    "question": "What is generative AI?",
+    "answer": "AI that creates new content such as text or images"
+  },
+  {
+    "section": "Generative AI",
+    "question": "What Azure service provides generative AI capabilities?",
+    "answer": "Azure OpenAI Service"
+  },
+  {
+    "section": "Generative AI",
+    "question": "What is a large language model (LLM)?",
+    "answer": "Model trained on vast text data to generate language"
+  },
+  {
+    "section": "Generative AI",
+    "question": "What is prompt engineering?",
+    "answer": "Designing inputs to guide model outputs"
+  },
+  {
+    "section": "Generative AI",
+    "question": "What is responsible AI concern in generative AI?",
+    "answer": "Hallucinations and misuse"
+  }
+]

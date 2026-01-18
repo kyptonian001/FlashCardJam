@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:;">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <title>FlashCard Jam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>FlashCard Jam</h1>
-        <div class="flashcard" id="flashcard">
-            <div class="flashcard-inner">
-                <div class="flashcard-front">
-                    <h2>Question</h2>
-                    <p id="question">What is the capital of France?</p>
-                </div>
-                <div class="flashcard-back">
-                    <h2>Answer</h2>`
-                    <p id="answer">Paris</p>
-                </div>
+        
+        <!-- Course Selection View -->
+        <div id="courseSelection" class="course-selection">
+            <h2>Select a Course</h2>
+            <div id="courseList" class="course-list">
+                <!-- Courses will be loaded here -->
             </div>
         </div>
-        <div class="controls">
-            <button id="prevBtn">Previous</button>
-            <button id="nextBtn">Next</button>
+        
+        <!-- Flashcard View -->
+        <div id="flashcardView" class="flashcard-view">
+            <div class="course-header">
+                <button id="backBtn">← Back to Courses</button>
+                <h2 id="courseTitle">Course Title</h2>
+            </div>
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <div class="section-badge" id="frontSection">Section</div>
+                        <h2>Question</h2>
+                        <p id="question">Loading...</p>
+                    </div>
+                    <div class="flashcard-back">
+                        <div class="section-badge" id="backSection">Section</div>
+                        <h2>Answer</h2>
+                        <p id="answer">Loading...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="toggle-container">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="randomizeToggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="toggle-label">Randomize</span>
+                </div>
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>

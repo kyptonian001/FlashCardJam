@@ -1,0 +1,74 @@
+{
+    "Courses": [
+        {
+            "CourseID": "AZ900",
+            "Title": "Microsoft Azure Fundamentals",
+            "Description": "Demonstrate foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools.",
+            "Certifier": "Microsoft",
+            "Source": "az900.json"
+        },
+        {
+            "CourseID": "AI900",
+            "Title": "Microsoft Azure AI Fundamentals",
+            "Description": "Demonstrate fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.",
+            "Certifier": "Microsoft",
+            "Source": "ai900.json"
+        },        
+        {
+            "CourseID": "SC900",
+            "Title": "Security, Compliance, and Identity Fundamentals",
+            "Description": "Demonstrate foundational knowledge on security, compliance, and identity concepts and related cloud-based Microsoft solutions.",
+            "Certifier": "Microsoft",
+            "Source": "sc900.json"
+        },  
+        {
+            "CourseID": "SC300",
+            "Title": "Microsoft Identity and Access Administrator",
+            "Description": "Demonstrate skills in implementing and managing identity and access solutions using Microsoft Entra ID, including identity governance, authentication methods, Conditional Access, and access management for applications and resources.",
+            "Certifier": "Microsoft",
+            "Source": "sc300.json"
+        },
+        {
+            "CourseID": "SC400",
+            "Title": "Microsoft Information Protection Administrator",
+            "Description": "Demonstrate skills in planning and implementing information protection and data loss prevention with Microsoft Purview, including sensitivity labels, DLP policies, data lifecycle and records management, and eDiscovery/auditing capabilities.",
+            "Certifier": "Microsoft",
+            "Source": "sc400.json"
+        },
+        {
+            "CourseID": "AZ104",
+            "Title": "Microsoft Azure Administrator",
+            "Description": "Demonstrate skills in implementing, managing, and monitoring Azure environments, including identity, governance, storage, compute, virtual networking, and backup/recovery.",
+            "Certifier": "Microsoft",
+            "Source": "az104.json"
+        },
+        {
+            "CourseID": "AZ305",
+            "Title": "Microsoft Azure Solutions Architect Expert",
+            "Description": "Demonstrate skills in designing Azure infrastructure solutions, including identity, governance, security, data storage, business continuity, and application architecture that meets business requirements.",
+            "Certifier": "Microsoft",
+            "Source": "az305.json"
+        },
+        {
+            "CourseID": "AI102",
+            "Title": "Designing and Implementing a Microsoft Azure AI Solution",
+            "Description": "Demonstrate skills in building, managing, and deploying AI solutions on Azure, including computer vision, natural language processing, speech, conversational AI, and generative AI solutions with Azure AI services.",
+            "Certifier": "Microsoft",
+            "Source": "ai102.json"
+        },
+        {
+            "CourseID": "DP100",
+            "Title": "Microsoft Azure Data Scientist Associate",
+            "Description": "Demonstrate skills in applying data science and machine learning to implement and run ML workloads on Azure, including model training, evaluation, deployment, and MLOps using Azure Machine Learning.",
+            "Certifier": "Microsoft",
+            "Source": "dp100.json"
+        },
+        {
+            "CourseID": "AZ400",
+            "Title": "Designing and Implementing Microsoft DevOps Solutions",
+            "Description": "Demonstrate skills in implementing DevOps practices for planning, source control, CI/CD, infrastructure as code, dependency management, security, compliance, monitoring, and continuous feedback using Azure DevOps and GitHub.",
+            "Certifier": "Microsoft",
+            "Source": "az400.json"
+        }
+    ]
+}

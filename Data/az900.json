@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Cloud Concepts",
+    "question": "What is cloud computing?",
+    "answer": "Delivery of computing services over the internet"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What are the three main cloud service models?",
+    "answer": "IaaS, PaaS, SaaS"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is Infrastructure as a Service (IaaS)?",
+    "answer": "You manage OS and apps; provider manages hardware"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is Platform as a Service (PaaS)?",
+    "answer": "Provider manages OS/runtime; you manage apps and data"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is Software as a Service (SaaS)?",
+    "answer": "Provider manages the entire application"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is a public cloud?",
+    "answer": "Cloud services provided over the internet to multiple tenants"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is a private cloud?",
+    "answer": "Cloud infrastructure dedicated to a single organization"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is a hybrid cloud?",
+    "answer": "Combination of on-premises and public cloud"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is scalability?",
+    "answer": "Ability to increase or decrease resources as needed"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is elasticity?",
+    "answer": "Automatic scaling based on demand"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is high availability?",
+    "answer": "Ensuring services remain accessible during failures"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is fault tolerance?",
+    "answer": "Ability to continue operating when components fail"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is CapEx?",
+    "answer": "Upfront capital expenditure"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is OpEx?",
+    "answer": "Pay-as-you-go operational expenditure"
+  },
+  {
+    "section": "Cloud Concepts",
+    "question": "What is consumption-based pricing?",
+    "answer": "Pay only for resources used"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is an Azure region?",
+    "answer": "A geographical area containing one or more datacenters"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is a region pair?",
+    "answer": "Two regions paired for disaster recovery"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Virtual Network (VNet)?",
+    "answer": "Logical network isolation in Azure"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is an Azure Virtual Machine?",
+    "answer": "Compute service that provides virtualized servers"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure App Service?",
+    "answer": "PaaS for hosting web apps and APIs"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Functions?",
+    "answer": "Serverless compute for event-driven code"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Container Instances?",
+    "answer": "Run containers without managing servers"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Kubernetes Service (AKS)?",
+    "answer": "Managed Kubernetes service"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Blob Storage?",
+    "answer": "Object storage for unstructured data"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure File Storage?",
+    "answer": "Cloud-based file shares"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Disk Storage?",
+    "answer": "Persistent storage for VMs"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure SQL Database?",
+    "answer": "Fully managed relational database service"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Cosmos DB?",
+    "answer": "Globally distributed NoSQL database"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Marketplace?",
+    "answer": "Online store for Azure solutions"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Resource Group?",
+    "answer": "Logical container for Azure resources"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Resource Manager (ARM)?",
+    "answer": "Deployment and management service for Azure"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Availability Zone?",
+    "answer": "Physically separate datacenters within a region"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Load Balancer?",
+    "answer": "Distributes inbound network traffic"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Traffic Manager?",
+    "answer": "DNS-based traffic routing"
+  },
+  {
+    "section": "Azure Services",
+    "question": "What is Azure Front Door?",
+    "answer": "Global web application acceleration and routing"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure Defender now called?",
+    "answer": "Microsoft Defender for Cloud"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is the purpose of Azure Role-Based Access Control (RBAC)?",
+    "answer": "Manage access to Azure resources"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Network Security Group (NSG)?",
+    "answer": "Controls inbound and outbound network traffic"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure Firewall?",
+    "answer": "Managed network firewall service"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure DDoS Protection?",
+    "answer": "Protects against distributed denial-of-service attacks"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is encryption at rest?",
+    "answer": "Protecting stored data"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is encryption in transit?",
+    "answer": "Protecting data moving across networks"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Microsoft Entra ID?",
+    "answer": "Cloud identity and access management service"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Conditional Access?",
+    "answer": "Policy-based access control"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure Policy?",
+    "answer": "Enforces organizational standards"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure Blueprints?",
+    "answer": "Defines repeatable cloud environments"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is the shared responsibility model?",
+    "answer": "Security responsibilities shared between provider and customer"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is Azure Key Vault?",
+    "answer": "Secure storage of secrets and keys"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "What is compliance?",
+    "answer": "Meeting regulatory and legal requirements"
+  },
+  {
+    "section": "Azure Security, Privacy, Compliance, Trust",
+    "question": "Where are Microsoft compliance reports found?",
+    "answer": "Service Trust Portal"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is an SLA?",
+    "answer": "Service Level Agreement defining uptime guarantees"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What does SLA percentage represent?",
+    "answer": "Expected availability"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What happens if Azure misses an SLA?",
+    "answer": "Service credits are issued"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What affects Azure pricing?",
+    "answer": "Resource type, usage, region"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is the Azure Pricing Calculator used for?",
+    "answer": "Estimating costs"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is the Azure Total Cost of Ownership (TCO) Calculator?",
+    "answer": "Compare on-prem vs Azure costs"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is a free Azure account benefit?",
+    "answer": "$200 credit + free services"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is lifecycle management?",
+    "answer": "Managing resource creation to deletion"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is resource tagging?",
+    "answer": "Labeling resources for management and billing"
+  },
+  {
+    "section": "Azure Pricing, SLA, Lifecycle",
+    "question": "What is cost management in Azure used for?",
+    "answer": "Monitor and control spending"
+  }
+]
