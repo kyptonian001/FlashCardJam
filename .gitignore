@@ -1,0 +1,7 @@
+*.tfvars
+*.lock.info
+*.lock.hcl
+*.tfstate.backup
+*.tfstate
+*.exe
+infra/.terraform/providers/registry.terraform.io/hashicorp/google/7.16.0/windows_amd64/LICENSE.txt

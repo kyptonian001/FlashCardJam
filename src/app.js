@@ -48,7 +48,7 @@ const nextBtn = document.getElementById('nextBtn');
 async function loadCourses() {
     console.log('Loading courses...');
     try {
-        const response = await fetch('Data/courses.json');
+        const response = await fetch('data/courses.json');
         console.log('Fetched courses.json');
         const data = await response.json();
         console.log('Parsed JSON:', data);
@@ -67,7 +67,7 @@ async function loadCourses() {
         displayCategoriesInitial();
     } catch (error) {
         console.error('Error loading courses:', error);
-        technologyList.innerHTML = '<p class="error-message">Error loading courses. Please check that Data/courses.json exists.</p>';
+        technologyList.innerHTML = '<p class="error-message">Error loading courses. Please check that data/courses.json exists.</p>';
     }
 }
 
@@ -141,11 +141,11 @@ function displayCategoriesInitial() {
 async function loadCourseCardCounts() {
     const countPromises = courses.map(async (course) => {
         try {
-            const response = await fetch(`Data/${course.Source}`);
+            const response = await fetch(`data/${course.Source}`);
             const flashcards = await response.json();
             course.cardCount = flashcards.length;
         } catch (error) {
-            console.error(`Error loading flashcards for Data/${course.Source}:`, error);
+            console.error(`Error loading flashcards for data/${course.Source}:`, error);
             course.cardCount = 0;
         }
     });
@@ -233,7 +233,7 @@ async function selectCourse(course) {
 // Load flashcards from the specified JSON file
 async function loadFlashcards(sourceFile) {
     try {
-        const response = await fetch(`Data/${sourceFile}`);
+        const response = await fetch(`data/${sourceFile}`);
         originalFlashcards = await response.json();
         flashcards = isRandomized ? shuffleArray(originalFlashcards) : [...originalFlashcards];
         currentCardIndex = 0;
@@ -241,7 +241,7 @@ async function loadFlashcards(sourceFile) {
     } catch (error) {
         console.error('Error loading flashcards:', error);
         questionElement.textContent = 'Error loading flashcards';
-        answerElement.textContent = `Please check that Data/${sourceFile} exists`;
+        answerElement.textContent = `Please check that data/${sourceFile} exists`;
     }
 }
 
