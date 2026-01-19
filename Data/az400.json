@@ -1,0 +1,302 @@
+[
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is DevOps focused on?",
+    "answer": "Collaboration to deliver value quickly and reliably"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "Goal of CI?",
+    "answer": "Integrate code frequently with automated builds/tests"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "Goal of continuous delivery (CD)?",
+    "answer": "Keep software deployable via automated pipelines"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is continuous deployment?",
+    "answer": "Automatically deploy changes to production"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is value stream mapping used for?",
+    "answer": "Identify bottlenecks in delivery"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is trunk-based development?",
+    "answer": "Frequent small merges to main branch"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is a work item in Azure Boards?",
+    "answer": "Track features, bugs, tasks"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is a sprint?",
+    "answer": "Time-boxed iteration for delivery"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is a service connection used for?",
+    "answer": "Authenticate pipelines to Azure/other services"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "Why use branching strategies?",
+    "answer": "Balance stability and speed"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is a pull request used for?",
+    "answer": "Code review and controlled merging"
+  },
+  {
+    "section": "DevOps culture & planning",
+    "question": "What is a quality gate?",
+    "answer": "Required check before promotion/merge"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a build pipeline?",
+    "answer": "Automates build and test steps"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a pipeline agent?",
+    "answer": "Compute that runs pipeline jobs"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is artifact publishing?",
+    "answer": "Store build outputs for deployment"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "Why run unit tests in CI?",
+    "answer": "Validate code behavior early"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is static code analysis?",
+    "answer": "Find code issues and potential vulnerabilities"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is dependency scanning?",
+    "answer": "Identify vulnerable libraries/packages"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a package feed?",
+    "answer": "Host versioned artifacts (NuGet/npm)"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is build validation?",
+    "answer": "Require CI checks before merging"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is pipeline caching used for?",
+    "answer": "Speed up builds by reusing dependencies"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a monorepo?",
+    "answer": "Single repository containing multiple projects"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a merge conflict?",
+    "answer": "Competing changes requiring manual resolution"
+  },
+  {
+    "section": "Source control & CI",
+    "question": "What is a commit?",
+    "answer": "A recorded set of changes in source control"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is blue/green deployment?",
+    "answer": "Switch traffic between two environments"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is canary deployment?",
+    "answer": "Roll out to subset of users/traffic first"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What are feature flags used for?",
+    "answer": "Control feature exposure without redeploying"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is rollback?",
+    "answer": "Revert to a prior stable version"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is an approval gate?",
+    "answer": "Checkpoint before promotion to next stage"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is a release pipeline?",
+    "answer": "Automates deployment to environments"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What are smoke tests?",
+    "answer": "Quick post-deploy validation tests"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What are load tests?",
+    "answer": "Validate performance under expected load"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is progressive exposure?",
+    "answer": "Limit blast radius during rollout"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What are deployment rings?",
+    "answer": "Stage rollouts from small to broad audiences"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What are health probes used for?",
+    "answer": "Detect unhealthy instances for traffic routing"
+  },
+  {
+    "section": "CD & release strategies",
+    "question": "What is release traceability?",
+    "answer": "Link deployments to commits/builds/work items"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is Infrastructure as Code (IaC)?",
+    "answer": "Manage infrastructure using code"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "Name an Azure-native IaC option.",
+    "answer": "Bicep (or ARM templates)"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "Name a multi-cloud IaC tool.",
+    "answer": "Terraform"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is configuration management?",
+    "answer": "Ensure systems keep desired state"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is idempotency in IaC?",
+    "answer": "Repeated runs produce same intended result"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is a pipeline stage?",
+    "answer": "Logical grouping of jobs (build/test/deploy)"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is a variable group used for?",
+    "answer": "Centralize pipeline variables"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "Secret management best practice?",
+    "answer": "Use Key Vault/secret stores; don\u2019t hardcode"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is artifact versioning used for?",
+    "answer": "Repeatable deployments and traceability"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is 'environment as code'?",
+    "answer": "Version control for environment configuration"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is a template pipeline used for?",
+    "answer": "Standardize and reuse pipeline logic"
+  },
+  {
+    "section": "IaC & configuration",
+    "question": "What is a Kubernetes manifest?",
+    "answer": "YAML defining desired state for K8s resources"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is observability focused on?",
+    "answer": "Metrics, logs, traces to understand systems"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is Application Insights used for?",
+    "answer": "App performance monitoring (APM)"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is Azure Monitor used for?",
+    "answer": "Collect and analyze telemetry across Azure"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is an SLO?",
+    "answer": "Service Level Objective (target reliability)"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is an SLA?",
+    "answer": "Contractual uptime/availability guarantee"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is a blameless postmortem?",
+    "answer": "Learn from incidents without blaming people"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is shift-left security?",
+    "answer": "Address security earlier in the SDLC"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "Least privilege for pipelines means what?",
+    "answer": "Grant minimal permissions to pipeline identities"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is secrets rotation?",
+    "answer": "Regularly change credentials/keys"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is policy-as-code?",
+    "answer": "Automate enforcement of security/compliance rules"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "What is a secure supply chain practice?",
+    "answer": "Sign artifacts and verify provenance"
+  },
+  {
+    "section": "Monitoring, security & compliance",
+    "question": "Why keep audit logs in CI/CD?",
+    "answer": "Trace who changed what and when"
+  }
+]

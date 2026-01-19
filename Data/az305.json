@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What is a landing zone?",
+    "answer": "A standardized, governed Azure environment baseline"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "Why use management groups?",
+    "answer": "Apply policies/RBAC across subscriptions"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What is central for Azure authentication?",
+    "answer": "Microsoft Entra ID"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "Best practice for privileged access?",
+    "answer": "JIT access with PIM + least privilege"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What should you use to enforce standards?",
+    "answer": "Azure Policy"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What should you use for centralized logging?",
+    "answer": "Azure Monitor + Log Analytics"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "Why hub-and-spoke network?",
+    "answer": "Centralize shared services and control traffic"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "Metrics vs logs: difference?",
+    "answer": "Metrics are time-series; logs are queryable records"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What is Azure Advisor used for?",
+    "answer": "Reliability/security/cost/performance recommendations"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What is Key Vault used for?",
+    "answer": "Secure secrets, keys, certificates"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "Why use a tagging strategy?",
+    "answer": "Cost allocation and resource organization"
+  },
+  {
+    "section": "Identity, governance & monitoring design",
+    "question": "What is least privilege?",
+    "answer": "Grant minimum required permissions"
+  },
+  {
+    "section": "Data storage design",
+    "question": "When choose Blob storage?",
+    "answer": "Unstructured data with massive scalability"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Typical relational PaaS database?",
+    "answer": "Azure SQL Database"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Typical global NoSQL database?",
+    "answer": "Azure Cosmos DB"
+  },
+  {
+    "section": "Data storage design",
+    "question": "When choose Azure Files?",
+    "answer": "Managed SMB/NFS shares for lift-and-shift"
+  },
+  {
+    "section": "Data storage design",
+    "question": "What redundancy replicates across regions?",
+    "answer": "GRS"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Why use access tiers?",
+    "answer": "Optimize cost based on access frequency"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Common caching choice?",
+    "answer": "Azure Cache for Redis"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Common data lake storage?",
+    "answer": "Azure Data Lake Storage Gen2"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Why use private endpoints?",
+    "answer": "Private access over VNets"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Key advantage of managed databases?",
+    "answer": "Automated patching, backups, HA"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Key advantage of Cosmos DB?",
+    "answer": "Low latency with global distribution"
+  },
+  {
+    "section": "Data storage design",
+    "question": "Goal of encryption at rest?",
+    "answer": "Protect stored data from unauthorized access"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "What is RTO?",
+    "answer": "Recovery Time Objective (time to restore service)"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "What is RPO?",
+    "answer": "Recovery Point Objective (acceptable data loss window)"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Active-active vs active-passive?",
+    "answer": "Active-active serves traffic in multiple regions; active-passive fails over"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "What do availability zones improve?",
+    "answer": "Resiliency within a region"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "What is Azure Site Recovery used for?",
+    "answer": "Replicate and fail over workloads for DR"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Common DR approach for databases?",
+    "answer": "Geo-replication and backup strategy"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Why use traffic management in DR?",
+    "answer": "Route users to healthy endpoints/regions"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Common global entry/routing service?",
+    "answer": "Azure Front Door"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "What are backups used for?",
+    "answer": "Point-in-time restore of data"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "BCDR focuses on what?",
+    "answer": "Continuity and recovery from failures/disasters"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Key design input for DR?",
+    "answer": "Business requirements for RTO/RPO"
+  },
+  {
+    "section": "Business continuity design",
+    "question": "Why do failover testing?",
+    "answer": "Validate DR plans without real outage"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Why choose PaaS over IaaS?",
+    "answer": "Reduced management and built-in resiliency"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Compute for microservices on Kubernetes?",
+    "answer": "AKS"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Compute for event-driven workloads?",
+    "answer": "Azure Functions"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Service for web apps with minimal ops?",
+    "answer": "Azure App Service"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "What is autoscaling used for?",
+    "answer": "Match capacity to demand and control cost"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Load Balancer vs App Gateway?",
+    "answer": "LB is L4; App Gateway is L7 + WAF"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Purpose of Azure Firewall?",
+    "answer": "Centralized stateful network security"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Purpose of NSGs?",
+    "answer": "Micro-segmentation and traffic filtering"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Why private connectivity to on-prem?",
+    "answer": "Secure hybrid access (VPN/ExpressRoute)"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "ExpressRoute vs VPN?",
+    "answer": "ExpressRoute is private dedicated connectivity"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "Pattern for environment isolation?",
+    "answer": "Separate subscriptions + governance policies"
+  },
+  {
+    "section": "Infrastructure design",
+    "question": "What is the purpose of Availability Sets?",
+    "answer": "Protect VMs from single hardware/update events"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is API Management used for?",
+    "answer": "Publish, secure, and manage APIs"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is the API gateway pattern?",
+    "answer": "Centralize auth, throttling, routing, policies"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is Azure Service Bus used for?",
+    "answer": "Reliable messaging between services"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is Event Grid used for?",
+    "answer": "Event routing for reactive architectures"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is Event Hubs used for?",
+    "answer": "High-throughput event streaming ingestion"
+  },
+  {
+    "section": "App architecture design",
+    "question": "Why use managed identities in apps?",
+    "answer": "Secure access without secrets"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is blue/green deployment?",
+    "answer": "Switch traffic between environments to reduce risk"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is canary deployment?",
+    "answer": "Gradually shift traffic to a new version"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is Azure Container Registry used for?",
+    "answer": "Store and manage container images"
+  },
+  {
+    "section": "App architecture design",
+    "question": "Purpose of CDN/Front Door?",
+    "answer": "Improve performance and global routing"
+  },
+  {
+    "section": "App architecture design",
+    "question": "Secret handling best practice?",
+    "answer": "Use Key Vault + managed identity, never hardcode"
+  },
+  {
+    "section": "App architecture design",
+    "question": "What is RAG used for with LLM apps?",
+    "answer": "Ground responses with retrieved enterprise knowledge"
+  }
+]

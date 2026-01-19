@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is Azure Machine Learning used for?",
+    "answer": "Build, train, deploy, and manage ML models"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is an Azure ML workspace?",
+    "answer": "Manage ML assets, compute, and experiments"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a datastore?",
+    "answer": "Connection to storage used by Azure ML"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a data asset used for?",
+    "answer": "Versioned reference to data for training/inference"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a compute instance?",
+    "answer": "Managed VM for development"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a compute cluster?",
+    "answer": "Scalable compute for training jobs"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is an environment in Azure ML?",
+    "answer": "Packaged dependencies/runtime for jobs/endpoints"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is an experiment?",
+    "answer": "Logical grouping of runs"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a run?",
+    "answer": "A single job execution with logged metrics/artifacts"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a pipeline?",
+    "answer": "Orchestrated ML workflow steps"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is a model registry used for?",
+    "answer": "Manage and version trained models"
+  },
+  {
+    "section": "Azure ML workspace & assets",
+    "question": "What is reproducibility?",
+    "answer": "Recreate results with same data/code/config"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is data preprocessing?",
+    "answer": "Cleaning/transforming data before training"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "Why split train/validation/test?",
+    "answer": "Tune models and measure generalization"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is supervised learning?",
+    "answer": "Learning from labeled data"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is classification?",
+    "answer": "Predict a category/label"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is regression?",
+    "answer": "Predict a numeric value"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is clustering?",
+    "answer": "Group similar items without labels"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is hyperparameter tuning?",
+    "answer": "Search for best training configuration"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is AutoML?",
+    "answer": "Automated model selection and tuning"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is cross-validation used for?",
+    "answer": "Robust performance estimation"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is feature engineering?",
+    "answer": "Create/select features that improve performance"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "What is class imbalance?",
+    "answer": "Unequal class distribution"
+  },
+  {
+    "section": "Data prep & training",
+    "question": "Mitigation for class imbalance?",
+    "answer": "Resampling or class weights"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "Accuracy measures what?",
+    "answer": "Fraction of correct predictions"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "Precision measures what?",
+    "answer": "Correct positives among predicted positives"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "Recall measures what?",
+    "answer": "Correct positives among actual positives"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is F1 score?",
+    "answer": "Harmonic mean of precision and recall"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is a confusion matrix?",
+    "answer": "Table comparing predicted vs actual classes"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is ROC-AUC used for?",
+    "answer": "Classifier separability across thresholds"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is MAE used for?",
+    "answer": "Average absolute error (regression)"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is RMSE used for?",
+    "answer": "Root mean squared error (regression)"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is overfitting?",
+    "answer": "Great on training, poor on test"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is underfitting?",
+    "answer": "Too simple to capture patterns"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "Why use explainability?",
+    "answer": "Understand drivers of predictions"
+  },
+  {
+    "section": "Evaluation & explainability",
+    "question": "What is feature importance?",
+    "answer": "Relative contribution of features to predictions"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is deployment?",
+    "answer": "Make a model available for inference"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is a real-time endpoint?",
+    "answer": "Low-latency scoring endpoint"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is batch inference?",
+    "answer": "Async scoring of large datasets"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is a scoring script used for?",
+    "answer": "Define request handling and prediction output"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "Why use container images for deployment?",
+    "answer": "Package model and runtime for serving"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is ACI used for?",
+    "answer": "Dev/test deployments"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is AKS used for?",
+    "answer": "Production-scale deployments"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "Why use autoscaling for endpoints?",
+    "answer": "Adjust replicas to match load"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is blue/green deployment?",
+    "answer": "Swap traffic between old/new safely"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is canary deployment?",
+    "answer": "Gradually shift traffic to new version"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is latency?",
+    "answer": "Time to return a prediction"
+  },
+  {
+    "section": "Deployment & inference",
+    "question": "What is throughput?",
+    "answer": "Requests served per unit time"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is MLOps?",
+    "answer": "Automation + practices for the ML lifecycle"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is data drift?",
+    "answer": "Change in input data distribution over time"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is model drift?",
+    "answer": "Change in model performance over time"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "ML monitoring should track what?",
+    "answer": "Quality, drift, latency, errors"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "Why version data/code/models?",
+    "answer": "Traceability and reproducibility"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is CI/CD in ML?",
+    "answer": "Automate training/testing/deployment"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is a retraining trigger?",
+    "answer": "Condition that starts retraining (new data/drift/schedule)"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is A/B testing for models?",
+    "answer": "Compare versions with live traffic"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "Responsible AI concerns what?",
+    "answer": "Fairness, transparency, privacy, accountability"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "Secure secret handling practice?",
+    "answer": "Use Key Vault/managed identity; avoid hardcoding"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "What is an artifact in an ML run?",
+    "answer": "Outputs like model files, metrics, logs"
+  },
+  {
+    "section": "MLOps & monitoring",
+    "question": "Why use pipelines in MLOps?",
+    "answer": "Repeatable automated end-to-end workflows"
+  }
+]

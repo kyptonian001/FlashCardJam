@@ -1,0 +1,402 @@
+[
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is Kubernetes?",
+    "answer": "An open-source platform for automating deployment, scaling, and management of containerized applications"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What problem does Kubernetes solve?",
+    "answer": "Orchestrates containers across clusters reliably"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is a cluster?",
+    "answer": "A set of nodes managed by Kubernetes"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is a container?",
+    "answer": "A lightweight, portable package with app and dependencies"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is Docker commonly used for?",
+    "answer": "Building and running containers"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "Is Kubernetes tied to Docker?",
+    "answer": "No, it supports multiple container runtimes"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is cloud-native?",
+    "answer": "Apps designed to run in distributed cloud environments"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What does CNCF stand for?",
+    "answer": "Cloud Native Computing Foundation"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What does declarative configuration mean?",
+    "answer": "You describe desired state, Kubernetes enforces it"
+  },
+  {
+    "section": "Kubernetes Fundamentals",
+    "question": "What is YAML used for in Kubernetes?",
+    "answer": "Define Kubernetes resources"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What are control plane components responsible for?",
+    "answer": "Managing cluster state"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is kube-apiserver?",
+    "answer": "Front-end for the Kubernetes control plane"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is etcd?",
+    "answer": "Distributed key-value store for cluster state"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What does kube-scheduler do?",
+    "answer": "Assigns Pods to nodes"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What does kube-controller-manager do?",
+    "answer": "Runs controllers that regulate cluster state"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is a node?",
+    "answer": "A worker machine that runs workloads"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What runs on every node?",
+    "answer": "kubelet, container runtime, kube-proxy"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is kubelet?",
+    "answer": "Ensures containers are running in a Pod"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is kube-proxy?",
+    "answer": "Handles network rules for service communication"
+  },
+  {
+    "section": "Cluster Architecture",
+    "question": "What is the difference between control plane and node?",
+    "answer": "Control plane manages, nodes run workloads"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a Pod?",
+    "answer": "The smallest deployable unit in Kubernetes"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "Can a Pod contain multiple containers?",
+    "answer": "Yes"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a Deployment?",
+    "answer": "Manages stateless applications"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a ReplicaSet?",
+    "answer": "Ensures desired number of Pods run"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a StatefulSet?",
+    "answer": "Manages stateful applications"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a DaemonSet?",
+    "answer": "Runs a Pod on every node"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a Job?",
+    "answer": "Runs a workload to completion"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is a CronJob?",
+    "answer": "Runs Jobs on a schedule"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is scaling?",
+    "answer": "Adjusting number of running Pods"
+  },
+  {
+    "section": "Workloads & Scheduling",
+    "question": "What is rolling update?",
+    "answer": "Gradually replacing Pods without downtime"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Kubernetes networking responsible for?",
+    "answer": "Communication between Pods and Services"
+  },
+  {
+    "section": "Networking",
+    "question": "What is a Service?",
+    "answer": "Stable endpoint for accessing Pods"
+  },
+  {
+    "section": "Networking",
+    "question": "What is ClusterIP?",
+    "answer": "Internal-only service type"
+  },
+  {
+    "section": "Networking",
+    "question": "What is NodePort?",
+    "answer": "Exposes service on a node's port"
+  },
+  {
+    "section": "Networking",
+    "question": "What is LoadBalancer?",
+    "answer": "Exposes service via external load balancer"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Ingress?",
+    "answer": "Manages external HTTP/HTTPS access"
+  },
+  {
+    "section": "Networking",
+    "question": "What is an Ingress Controller?",
+    "answer": "Implements Ingress rules"
+  },
+  {
+    "section": "Networking",
+    "question": "What is a CNI?",
+    "answer": "Container Network Interface plugin"
+  },
+  {
+    "section": "Networking",
+    "question": "Do Pods get unique IPs?",
+    "answer": "Yes"
+  },
+  {
+    "section": "Networking",
+    "question": "What is DNS used for in Kubernetes?",
+    "answer": "Service discovery"
+  },
+  {
+    "section": "Storage",
+    "question": "What is persistent storage?",
+    "answer": "Data that survives Pod restarts"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a PersistentVolume (PV)?",
+    "answer": "Cluster-wide storage resource"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a PersistentVolumeClaim (PVC)?",
+    "answer": "Request for storage"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a StorageClass?",
+    "answer": "Defines storage provisioning"
+  },
+  {
+    "section": "Storage",
+    "question": "What is dynamic provisioning?",
+    "answer": "Storage created on demand"
+  },
+  {
+    "section": "Storage",
+    "question": "What is ephemeral storage?",
+    "answer": "Storage tied to Pod lifecycle"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a volume?",
+    "answer": "Directory accessible to containers"
+  },
+  {
+    "section": "Storage",
+    "question": "Where is etcd data stored?",
+    "answer": "Persistent disk"
+  },
+  {
+    "section": "Storage",
+    "question": "Can Pods share volumes?",
+    "answer": "Yes"
+  },
+  {
+    "section": "Storage",
+    "question": "Why is persistent storage important?",
+    "answer": "Retain application data"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is RBAC?",
+    "answer": "Role-Based Access Control"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a Role?",
+    "answer": "Defines permissions within a namespace"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a ClusterRole?",
+    "answer": "Defines permissions cluster-wide"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a RoleBinding?",
+    "answer": "Binds Role to users or service accounts"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a ServiceAccount?",
+    "answer": "Identity for Pods"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is namespace isolation?",
+    "answer": "Logical separation of resources"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a NetworkPolicy?",
+    "answer": "Controls Pod network traffic"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is least privilege?",
+    "answer": "Grant minimal permissions"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is secrets management?",
+    "answer": "Secure handling of sensitive data"
+  },
+  {
+    "section": "Security & RBAC",
+    "question": "What is a Secret?",
+    "answer": "Stores sensitive information"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is observability?",
+    "answer": "Understanding system behavior via metrics/logs/traces"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is kubectl?",
+    "answer": "CLI for Kubernetes"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is a liveness probe?",
+    "answer": "Checks if container should restart"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is a readiness probe?",
+    "answer": "Checks if container can receive traffic"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is a health check used for?",
+    "answer": "Detect unhealthy Pods"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is logging used for?",
+    "answer": "Troubleshooting and monitoring"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is monitoring?",
+    "answer": "Tracking cluster and app health"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is auto-healing?",
+    "answer": "Kubernetes restarts failed Pods"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "What is rolling restart?",
+    "answer": "Restart Pods gradually"
+  },
+  {
+    "section": "Observability & Operations",
+    "question": "Why use labels?",
+    "answer": "Organize and select resources"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is CNCF?",
+    "answer": "Foundation supporting cloud-native technologies"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is container orchestration?",
+    "answer": "Automated management of containers"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is Helm?",
+    "answer": "Package manager for Kubernetes"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is GitOps?",
+    "answer": "Managing infrastructure using Git"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is immutable infrastructure?",
+    "answer": "Replace instead of modify"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is DevOps in Kubernetes?",
+    "answer": "CI/CD with containerized workloads"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is microservices architecture?",
+    "answer": "Application split into small services"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "What is service mesh?",
+    "answer": "Infrastructure layer for service communication"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "Is Kubernetes opinionated?",
+    "answer": "No, it is flexible"
+  },
+  {
+    "section": "Cloud Native & CNCF",
+    "question": "Why is Kubernetes popular?",
+    "answer": "Portability, scalability, and resilience"
+  }
+]

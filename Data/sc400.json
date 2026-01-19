@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What are sensitivity labels used for?",
+    "answer": "Classify and protect content based on sensitivity"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What can a sensitivity label do?",
+    "answer": "Apply encryption, markings, and access restrictions"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is a label policy used for?",
+    "answer": "Publish labels to users and configure behavior"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is auto-labeling?",
+    "answer": "Apply labels automatically based on content/conditions"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is data classification?",
+    "answer": "Categorize data by sensitivity and handling requirements"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is Microsoft Purview used for here?",
+    "answer": "Information protection and compliance capabilities"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "Label-based encryption mainly protects against what?",
+    "answer": "Unauthorized access to content"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What are content markings used for?",
+    "answer": "Headers/footers/watermarks to signal sensitivity"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is label scope?",
+    "answer": "Where a label can be applied (files/emails, etc.)"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "Key benefit of sensitivity labels?",
+    "answer": "Consistent protection across Microsoft 365"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "Sensitivity vs retention label: difference?",
+    "answer": "Sensitivity protects; retention governs keep/delete"
+  },
+  {
+    "section": "Sensitivity labels & information protection",
+    "question": "What is Customer Key (conceptually)?",
+    "answer": "Customer-managed encryption keys for certain workloads"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is DLP used for?",
+    "answer": "Prevent sensitive info from being shared inappropriately"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "DLP decisions are based on what?",
+    "answer": "Sensitive info types, labels, and conditions"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is an information barrier policy used for?",
+    "answer": "Prevent communication/sharing between groups"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "DLP vs information barriers: difference?",
+    "answer": "DLP prevents leakage; info barriers limit communication"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is Insider Risk Management used for?",
+    "answer": "Detect and investigate risky internal activities"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "Common insider risk scenario?",
+    "answer": "Data exfiltration or IP theft"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is a sensitive info type (SIT)?",
+    "answer": "Detector definition for sensitive data (e.g., credit cards)"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "Why use DLP exclusions?",
+    "answer": "Reduce false positives"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is endpoint DLP?",
+    "answer": "Apply DLP controls to data on endpoints"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "What is an insider risk alert?",
+    "answer": "Signal of potentially risky activity for review"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "Why use insider risk templates?",
+    "answer": "Start from common scenarios with preset signals"
+  },
+  {
+    "section": "DLP, insider risk & info barriers",
+    "question": "Why use information barriers in regulated orgs?",
+    "answer": "Reduce conflict-of-interest communication risk"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is a retention label used for?",
+    "answer": "Define retention duration and actions (retain/delete)"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is a retention policy used for?",
+    "answer": "Apply retention settings to locations/content"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is records management used for?",
+    "answer": "Manage regulatory records and disposition"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is a disposition review?",
+    "answer": "Review/approve deletion of retained content"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is event-based retention?",
+    "answer": "Retention starts when a defined event occurs"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "In retention, what does 'retain' mean?",
+    "answer": "Keep content for a specified period"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "In retention, what does 'delete' mean?",
+    "answer": "Remove content after retention conditions are met"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is a regulatory record label used for?",
+    "answer": "Lock content as a record with stricter controls"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is proof of disposition?",
+    "answer": "Evidence of deletion/disposal actions"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "Why use retention over manual deletion?",
+    "answer": "Defensible, consistent compliance processes"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "Where can retention apply?",
+    "answer": "Exchange, SharePoint, OneDrive, Teams"
+  },
+  {
+    "section": "Retention, records & lifecycle",
+    "question": "What is data lifecycle management focused on?",
+    "answer": "Retention and deletion across workloads"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is Audit used for?",
+    "answer": "Investigate actions/events via audit records"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "Audit (Premium) is commonly used for what?",
+    "answer": "Advanced investigations and longer retention"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is eDiscovery used for?",
+    "answer": "Search, preserve, export content for legal/investigations"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "Audit vs eDiscovery: difference?",
+    "answer": "Audit = actions; eDiscovery = content"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is a legal hold?",
+    "answer": "Preserve content to prevent deletion during a case"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is a custodian in eDiscovery?",
+    "answer": "Person whose data is relevant to a case"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "eDiscovery (Standard) is best for what?",
+    "answer": "Basic cases, holds, search/export"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "eDiscovery (Premium) adds what commonly?",
+    "answer": "Custodians and advanced review workflow"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is content search used for?",
+    "answer": "Search across content locations"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "Why is audit log retention important?",
+    "answer": "Support compliance and incident investigations"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "Why export in eDiscovery?",
+    "answer": "Provide collected content for review/legal teams"
+  },
+  {
+    "section": "Audit & eDiscovery",
+    "question": "What is case management used for?",
+    "answer": "Organize scope, roles, and evidence"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is Purview Compliance Manager?",
+    "answer": "Assess/manage compliance posture and controls"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What does the compliance score represent?",
+    "answer": "Progress toward implementing controls"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What are the three control types?",
+    "answer": "Microsoft-managed, shared, customer-managed"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is an assessment in Compliance Manager?",
+    "answer": "Mapping controls to standards/regulations"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is a recommended action?",
+    "answer": "Step to improve compliance posture"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is the Service Trust Portal used for?",
+    "answer": "Microsoft audit reports and compliance documents"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is evidence in Compliance Manager?",
+    "answer": "Documentation proving a control is implemented"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "Why separate roles in compliance tools?",
+    "answer": "Reduce risk by limiting access to sensitive features"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is a data subject request (DSR)?",
+    "answer": "Request from individuals about their personal data"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is data minimization?",
+    "answer": "Collect/use only necessary personal data"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "What is a security baseline?",
+    "answer": "Standard recommended configuration aligned to benchmarks"
+  },
+  {
+    "section": "Compliance Manager & governance",
+    "question": "Why track controls over time?",
+    "answer": "Demonstrate continuous compliance improvement"
+  }
+]

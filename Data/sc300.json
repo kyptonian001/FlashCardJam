@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is Microsoft Entra ID primarily used for?",
+    "answer": "Cloud identity and access management (IAM)"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is a Microsoft Entra tenant?",
+    "answer": "A dedicated Entra ID instance for an organization"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "Why add a custom domain in Entra ID?",
+    "answer": "Use your organization\u2019s domain for user sign-in names"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is RBAC in Entra?",
+    "answer": "Manage permissions by assigning roles"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What does an Entra administrative role grant?",
+    "answer": "Permissions to perform specific admin tasks in Entra"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "Why use groups in Entra ID?",
+    "answer": "Manage access and assignments at scale"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "Entra roles vs Azure RBAC roles: key difference?",
+    "answer": "Entra roles manage Entra resources; Azure RBAC manages Azure resources"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is hybrid identity?",
+    "answer": "Use on-prem identities with Entra ID in the cloud"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What tool syncs AD DS identities to Entra ID?",
+    "answer": "Microsoft Entra Connect"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is federation?",
+    "answer": "Trust enabling cross-organization authentication"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is SSO?",
+    "answer": "One sign-in to access multiple apps"
+  },
+  {
+    "section": "Identity fundamentals & tenants",
+    "question": "What is passwordless authentication meant to reduce?",
+    "answer": "Reliance on passwords"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is MFA?",
+    "answer": "Authentication using two or more factors"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "Name a strong MFA method.",
+    "answer": "Microsoft Authenticator app"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is Windows Hello for Business used for?",
+    "answer": "Passwordless sign-in using device-bound credentials/biometrics"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is FIDO2 used for?",
+    "answer": "Passwordless authentication using security keys"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What does SSPR stand for?",
+    "answer": "Self-service password reset"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is the main benefit of SSPR?",
+    "answer": "Users reset passwords without helpdesk involvement"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "SSPR: one common verification method?",
+    "answer": "Email"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "SSPR: another common verification method?",
+    "answer": "Security questions"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "Why is app-based MFA generally stronger than SMS?",
+    "answer": "Less susceptible to interception/SIM swap"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is authentication method registration?",
+    "answer": "User enrollment of MFA/SSPR methods"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What is Entra Password Protection used for?",
+    "answer": "Block weak passwords and reduce password spray success"
+  },
+  {
+    "section": "Authentication & MFA",
+    "question": "What does combined registration enable?",
+    "answer": "Register MFA and SSPR methods in one flow"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "What is Conditional Access used for?",
+    "answer": "Enforce access controls based on conditions and signals"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Example Conditional Access condition?",
+    "answer": "Location, device compliance, app, or risk level"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Example Conditional Access grant control?",
+    "answer": "Require MFA"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "What is sign-in risk?",
+    "answer": "Risk associated with a specific authentication attempt"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "What is user risk?",
+    "answer": "Risk that a user identity is compromised"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Leaked credentials is what risk type?",
+    "answer": "User risk"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Atypical travel is what risk type?",
+    "answer": "Sign-in risk"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Anonymous IP is what risk type?",
+    "answer": "Sign-in risk"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "What is Entra ID Protection used for?",
+    "answer": "Detect and remediate risky users/sign-ins"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Typical remediation for high user risk?",
+    "answer": "Require password change or block access"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "Typical remediation for high sign-in risk?",
+    "answer": "Require MFA or block sign-in"
+  },
+  {
+    "section": "Conditional Access & Identity Protection",
+    "question": "What are named locations used for?",
+    "answer": "Define trusted/untrusted locations for policies"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is PIM?",
+    "answer": "Privileged Identity Management"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "Goal of PIM?",
+    "answer": "Reduce standing privilege with just-in-time role activation"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is an access review used for?",
+    "answer": "Validate whether users still need access"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is entitlement management used for?",
+    "answer": "Manage access packages with approvals and lifecycle"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is an access package?",
+    "answer": "A bundle of resources users can request"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "Why set access expiration?",
+    "answer": "Automatically remove access after a set period"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What does least privilege mean?",
+    "answer": "Grant only the minimum access required"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What are Terms of Use used for?",
+    "answer": "Require acceptance before granting access"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is access lifecycle management?",
+    "answer": "Grant, review, expire, and remove access over time"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "Common approver for access packages?",
+    "answer": "Manager or designated approver"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "Why run access reviews for guests?",
+    "answer": "Reduce stale external access"
+  },
+  {
+    "section": "Identity governance & privileged access",
+    "question": "What is just-in-time (JIT) access?",
+    "answer": "Temporary elevation only when needed"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is an enterprise application in Entra?",
+    "answer": "An app integrated for SSO and access control"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is app assignment used for?",
+    "answer": "Control who can sign in to an app"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is SCIM provisioning used for?",
+    "answer": "Automated user provisioning to apps"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is Entra B2B used for?",
+    "answer": "Invite external users as guests for collaboration"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is Entra External ID used for?",
+    "answer": "Customer/external user sign-in experiences"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "Example External ID identity type?",
+    "answer": "Social identity (Google/Apple)"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is an app registration used for?",
+    "answer": "Define an application identity and permissions"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is a service principal?",
+    "answer": "The app identity instance in a tenant"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What are redirect URIs used for?",
+    "answer": "Where auth responses are sent after sign-in"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "What is a claim in a token?",
+    "answer": "An attribute about the user/app"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "Least-privilege API permissions means what?",
+    "answer": "Grant only required scopes/roles"
+  },
+  {
+    "section": "Apps, tokens & external identities",
+    "question": "Consent in OAuth/OIDC means what?",
+    "answer": "Authorize an app to access resources on a user\u2019s behalf"
+  }
+]

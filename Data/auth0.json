@@ -1,0 +1,477 @@
+[
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is Auth0?",
+    "answer": "A cloud-based identity platform for authentication and authorization"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "Auth0 is primarily what type of IAM?",
+    "answer": "Customer Identity and Access Management (CIAM)"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is a tenant in Auth0?",
+    "answer": "An isolated Auth0 environment for apps and users"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is Universal Login?",
+    "answer": "Auth0-hosted login experience"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "Why prefer Universal Login?",
+    "answer": "Improved security and reduced maintenance"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is an Auth0 connection?",
+    "answer": "A source of users such as a database or social provider"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "Name a connection type.",
+    "answer": "Database connection"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is identity federation?",
+    "answer": "Delegating authentication to another IdP"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What protocol does Auth0 primarily use?",
+    "answer": "OAuth 2.0 and OpenID Connect"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is a social identity provider?",
+    "answer": "Third-party IdP like Google or Facebook"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is a custom domain used for?",
+    "answer": "Branding and phishing resistance"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is Auth0 Lock?",
+    "answer": "A customizable login widget"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is embedded login?",
+    "answer": "Login UI implemented directly in the app"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "Why avoid embedded login?",
+    "answer": "Higher security risk"
+  },
+  {
+    "section": "Auth0 Fundamentals",
+    "question": "What is tenant isolation?",
+    "answer": "Separation of identity data and configuration"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is OAuth 2.0 used for?",
+    "answer": "Authorization"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is OpenID Connect used for?",
+    "answer": "Authentication"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What token proves authentication?",
+    "answer": "ID Token"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What token is used to call APIs?",
+    "answer": "Access Token"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What token allows refreshing access?",
+    "answer": "Refresh Token"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is PKCE?",
+    "answer": "Security extension for public OAuth clients"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "Which flow is best for SPAs?",
+    "answer": "Authorization Code Flow with PKCE"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What flow is used for server apps?",
+    "answer": "Authorization Code Flow"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What flow is used for machine-to-machine apps?",
+    "answer": "Client Credentials Flow"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "Which flow should be avoided?",
+    "answer": "Implicit Flow"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is a client ID?",
+    "answer": "Public identifier of an application"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What must be protected in confidential clients?",
+    "answer": "Client secret"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is a scope?",
+    "answer": "Permission requested by a client"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is a redirect URI?",
+    "answer": "Destination for auth responses"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "Why validate redirect URIs?",
+    "answer": "Prevent token leakage"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is token expiration?",
+    "answer": "Defined lifetime of a token"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "Why prefer short-lived access tokens?",
+    "answer": "Reduce impact of compromise"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is the audience parameter?",
+    "answer": "Identifies the target API"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What does the 'openid' scope indicate?",
+    "answer": "OIDC authentication request"
+  },
+  {
+    "section": "OAuth 2.0 & OpenID Connect",
+    "question": "What is the authorization server in Auth0?",
+    "answer": "Auth0 tenant"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is an Application in Auth0?",
+    "answer": "A client that authenticates users"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "Name an Auth0 application type.",
+    "answer": "Single Page Application"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is an API in Auth0?",
+    "answer": "A protected backend resource"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is a machine-to-machine app?",
+    "answer": "Server-to-server integration"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What token format does Auth0 use?",
+    "answer": "JSON Web Tokens (JWT)"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What does token signing ensure?",
+    "answer": "Integrity and authenticity"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What algorithm is recommended for JWT signing?",
+    "answer": "RS256"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "Why is RS256 preferred?",
+    "answer": "Supports key rotation and separation of concerns"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is the 'iss' claim?",
+    "answer": "Token issuer"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is the 'sub' claim?",
+    "answer": "Subject identifier"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is the 'exp' claim?",
+    "answer": "Expiration time"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is token validation?",
+    "answer": "Verifying signature and claims"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is the Client Credentials Flow used for?",
+    "answer": "M2M authentication"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is an access token used for?",
+    "answer": "Authorizing API access"
+  },
+  {
+    "section": "Applications, APIs, and Tokens",
+    "question": "What is the ID token audience?",
+    "answer": "The client application"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is a user profile?",
+    "answer": "Collection of user attributes"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is user_id?",
+    "answer": "Unique Auth0 identifier for a user"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is password hashing?",
+    "answer": "One-way encryption of passwords"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "Does Auth0 store plaintext passwords?",
+    "answer": "No"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is email verification?",
+    "answer": "Confirming email ownership"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "Why verify email?",
+    "answer": "Reduce fraud"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is password reset?",
+    "answer": "Process to recover account access"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is user metadata?",
+    "answer": "User-editable custom attributes"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is app metadata?",
+    "answer": "Non-user-editable attributes"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "Can users have multiple identities?",
+    "answer": "Yes"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is account linking?",
+    "answer": "Merging identities"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is progressive profiling?",
+    "answer": "Collecting data over time"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is a blocked user?",
+    "answer": "User prevented from logging in"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is an identity provider?",
+    "answer": "Service that authenticates users"
+  },
+  {
+    "section": "User Management & Identity",
+    "question": "What is profile normalization?",
+    "answer": "Mapping IdP data into a consistent profile"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is MFA?",
+    "answer": "Multi-Factor Authentication"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "Name an MFA method.",
+    "answer": "Authenticator app"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is WebAuthn?",
+    "answer": "Passwordless authentication standard"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "Why enable MFA?",
+    "answer": "Reduce account takeover risk"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is brute-force protection?",
+    "answer": "Defense against repeated login attempts"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is breached password detection?",
+    "answer": "Blocks known compromised passwords"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is anomaly detection?",
+    "answer": "Identify suspicious behavior"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is bot detection?",
+    "answer": "Prevent automated abuse"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is rate limiting?",
+    "answer": "Restricting request volume"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is refresh token rotation?",
+    "answer": "Replacing refresh token on each use"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "Why use refresh token rotation?",
+    "answer": "Detect token theft"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is phishing?",
+    "answer": "Deceptive credential harvesting"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is Zero Trust?",
+    "answer": "Never trust, always verify"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "Security design principle in CIAM?",
+    "answer": "Centralize identity"
+  },
+  {
+    "section": "Security, CIAM & Best Practices",
+    "question": "What is least privilege?",
+    "answer": "Grant minimal access"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What are Actions in Auth0?",
+    "answer": "Serverless extensibility for auth flows"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What replaced Rules and Hooks?",
+    "answer": "Actions"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What language are Actions written in?",
+    "answer": "JavaScript"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is a Post-Login Action?",
+    "answer": "Runs after authentication"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What are custom claims?",
+    "answer": "Custom data added to tokens"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What namespace is required for custom claims?",
+    "answer": "A URI"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What are Organizations?",
+    "answer": "B2B tenant grouping feature"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What problem do Organizations solve?",
+    "answer": "Multi-tenant B2B identity"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is B2B authentication?",
+    "answer": "Auth for business partners/customers"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is session management?",
+    "answer": "Control of login persistence"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is single logout (SLO)?",
+    "answer": "Logout across applications"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What protocol supports legacy federation?",
+    "answer": "SAML"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What protocols does Auth0 support?",
+    "answer": "OAuth 2.0, OIDC, SAML"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is tenant-level isolation important for?",
+    "answer": "Security and compliance"
+  },
+  {
+    "section": "Extensibility & Advanced Topics",
+    "question": "What is token customization used for?",
+    "answer": "Passing app-specific claims"
+  }
+]

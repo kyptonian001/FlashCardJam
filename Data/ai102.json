@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Solution planning & orchestration",
+    "question": "What is the purpose of Azure AI services?",
+    "answer": "Provide prebuilt AI capabilities (vision, language, speech, etc.)"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "What is an endpoint?",
+    "answer": "Callable interface (URL) for a deployed model/service"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "What is inference?",
+    "answer": "Producing outputs/predictions from a model/service"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "How do you orchestrate multi-step AI workflows?",
+    "answer": "Chain calls in an app/service workflow"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Key security practice for AI endpoints?",
+    "answer": "Restrict access and rotate credentials"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Why collect telemetry for AI solutions?",
+    "answer": "Monitor usage, latency, failures, and quality"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Common way to reduce latency?",
+    "answer": "Deploy near users and cache where appropriate"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Reliability strategy for AI apps?",
+    "answer": "Retries with backoff and graceful fallbacks"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Why use managed identity?",
+    "answer": "Secure access to resources without stored secrets"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Why use API keys?",
+    "answer": "Authenticate to the AI service"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Why use private networking options?",
+    "answer": "Reduce public exposure and leakage risk"
+  },
+  {
+    "section": "Solution planning & orchestration",
+    "question": "Training vs inference: difference?",
+    "answer": "Training builds models; inference serves predictions"
+  },
+  {
+    "section": "Vision",
+    "question": "What is OCR used for?",
+    "answer": "Extract text from images/documents"
+  },
+  {
+    "section": "Vision",
+    "question": "What is object detection?",
+    "answer": "Identify objects and their locations"
+  },
+  {
+    "section": "Vision",
+    "question": "What is image classification?",
+    "answer": "Assign a label/category to an image"
+  },
+  {
+    "section": "Vision",
+    "question": "What is image tagging?",
+    "answer": "Generate descriptive tags for an image"
+  },
+  {
+    "section": "Vision",
+    "question": "What service provides vision capabilities?",
+    "answer": "Azure AI Vision"
+  },
+  {
+    "section": "Vision",
+    "question": "Common OCR use case?",
+    "answer": "Reading receipts/invoices/forms"
+  },
+  {
+    "section": "Vision",
+    "question": "Common object detection use case?",
+    "answer": "Counting or locating items/people"
+  },
+  {
+    "section": "Vision",
+    "question": "What is layout analysis used for?",
+    "answer": "Extract tables/structure from documents"
+  },
+  {
+    "section": "Vision",
+    "question": "What is video analysis used for?",
+    "answer": "Extract insights from video streams"
+  },
+  {
+    "section": "Vision",
+    "question": "Prebuilt model advantage?",
+    "answer": "No custom training required for common tasks"
+  },
+  {
+    "section": "Vision",
+    "question": "OCR typically requires what input?",
+    "answer": "An image or document"
+  },
+  {
+    "section": "Vision",
+    "question": "Important RAI concern in vision?",
+    "answer": "Privacy"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is sentiment analysis?",
+    "answer": "Determine sentiment in text"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is key phrase extraction?",
+    "answer": "Extract important phrases from text"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is named entity recognition (NER)?",
+    "answer": "Identify entities like people/orgs/locations"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is language detection?",
+    "answer": "Detect the language of text"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What service provides NLP features?",
+    "answer": "Azure AI Language"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is CLU used for?",
+    "answer": "Extract intents and entities from utterances"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is question answering used for?",
+    "answer": "Answer questions from knowledge sources"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is speech-to-text?",
+    "answer": "Convert speech audio into text"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is text-to-speech?",
+    "answer": "Convert text into spoken audio"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What service provides speech features?",
+    "answer": "Azure AI Speech"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "What is translation used for?",
+    "answer": "Convert text between languages"
+  },
+  {
+    "section": "Language & Speech",
+    "question": "Common CLU use case?",
+    "answer": "Chatbots and command understanding"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is Azure OpenAI Service?",
+    "answer": "Azure-hosted access to OpenAI models with enterprise controls"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is prompt engineering?",
+    "answer": "Design prompts to guide model outputs"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is few-shot prompting?",
+    "answer": "Provide examples to steer outputs"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is temperature used for?",
+    "answer": "Control randomness/creativity"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What are embeddings used for?",
+    "answer": "Vector representations for similarity search"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is RAG?",
+    "answer": "Ground LLM responses using retrieved external knowledge"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "How does RAG reduce hallucinations?",
+    "answer": "It grounds outputs in retrieved sources"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is a system message used for?",
+    "answer": "Set high-level model behavior and rules"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "What is a content filter used for?",
+    "answer": "Block/flag unsafe or disallowed output"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "Embeddings common use case?",
+    "answer": "Semantic search"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "Chat models common use case?",
+    "answer": "Conversational assistants and Q&A"
+  },
+  {
+    "section": "Azure OpenAI & GenAI patterns",
+    "question": "How to control data exposure in prompts?",
+    "answer": "Redact/minimize sensitive data in context"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Responsible AI: fairness means what?",
+    "answer": "Avoid biased or inequitable outcomes"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Responsible AI: transparency means what?",
+    "answer": "Explainability and understanding behavior"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Responsible AI: privacy means what?",
+    "answer": "Protect personal data and limit exposure"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "What is prompt injection?",
+    "answer": "Crafted inputs that try to override rules or extract data"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "One mitigation for prompt injection?",
+    "answer": "Strict system rules + validate inputs + limit tool access"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "How to reduce GenAI data leakage risk?",
+    "answer": "Minimize context, enforce access controls, filter outputs"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Why log AI requests/responses?",
+    "answer": "Audit, troubleshoot, and safety review"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "What is human-in-the-loop used for?",
+    "answer": "Review outputs in high-stakes scenarios"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "What is model monitoring focused on?",
+    "answer": "Drift, quality, latency, failures"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Common misuse risk in GenAI?",
+    "answer": "Generating harmful/misleading content"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Privacy-friendly prompt practice?",
+    "answer": "Avoid including PII unless necessary and allowed"
+  },
+  {
+    "section": "Responsible AI & security",
+    "question": "Goal of content safety controls?",
+    "answer": "Reduce harmful or policy-violating output"
+  }
+]

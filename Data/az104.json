@@ -1,0 +1,302 @@
+[
+  {
+    "section": "Identity & Governance",
+    "question": "What is Azure RBAC used for?",
+    "answer": "Control access to Azure resources"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is a resource group?",
+    "answer": "Logical container for Azure resources"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is Azure Policy used for?",
+    "answer": "Enforce standards and assess compliance"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is a management group used for?",
+    "answer": "Organize subscriptions for governance at scale"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is a subscription?",
+    "answer": "Billing and access boundary for Azure resources"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is Microsoft Entra ID used for in Azure?",
+    "answer": "Identity and access management"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is a role assignment?",
+    "answer": "Bind a role to a principal at a scope"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What are tags used for?",
+    "answer": "Organize resources for cost and management"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is a resource lock used for?",
+    "answer": "Prevent accidental deletion/modification"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is ARM?",
+    "answer": "Azure Resource Manager deployment/management layer"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is Azure CLI?",
+    "answer": "Command-line tool to manage Azure"
+  },
+  {
+    "section": "Identity & Governance",
+    "question": "What is Azure PowerShell?",
+    "answer": "PowerShell modules to manage Azure"
+  },
+  {
+    "section": "Compute",
+    "question": "What is an Azure VM?",
+    "answer": "A virtualized server compute resource"
+  },
+  {
+    "section": "Compute",
+    "question": "What is a VM scale set used for?",
+    "answer": "Run and scale a set of identical VMs"
+  },
+  {
+    "section": "Compute",
+    "question": "What is Azure App Service?",
+    "answer": "PaaS for hosting web apps/APIs"
+  },
+  {
+    "section": "Compute",
+    "question": "What is Azure Functions?",
+    "answer": "Serverless compute for event-driven code"
+  },
+  {
+    "section": "Compute",
+    "question": "What is Azure Container Instances (ACI)?",
+    "answer": "Run containers without managing servers"
+  },
+  {
+    "section": "Compute",
+    "question": "What is AKS?",
+    "answer": "Managed Kubernetes service"
+  },
+  {
+    "section": "Compute",
+    "question": "What is an availability set used for?",
+    "answer": "Distribute VMs across fault/update domains"
+  },
+  {
+    "section": "Compute",
+    "question": "What is an availability zone?",
+    "answer": "Physically separate datacenters in a region"
+  },
+  {
+    "section": "Compute",
+    "question": "What is a custom VM image used for?",
+    "answer": "Deploy VMs with preconfigured OS/apps"
+  },
+  {
+    "section": "Compute",
+    "question": "IaaS vs PaaS: key difference?",
+    "answer": "IaaS you manage OS; PaaS provider manages OS/runtime"
+  },
+  {
+    "section": "Compute",
+    "question": "What is a managed identity used for?",
+    "answer": "Access resources without storing secrets"
+  },
+  {
+    "section": "Compute",
+    "question": "What is a VM extension?",
+    "answer": "Add configuration/features after VM deployment"
+  },
+  {
+    "section": "Storage",
+    "question": "What is an Azure Storage account?",
+    "answer": "Namespace for Azure storage services"
+  },
+  {
+    "section": "Storage",
+    "question": "What is Blob storage?",
+    "answer": "Object storage for unstructured data"
+  },
+  {
+    "section": "Storage",
+    "question": "What is Azure Files?",
+    "answer": "Managed file shares (SMB/NFS)"
+  },
+  {
+    "section": "Storage",
+    "question": "What is Disk storage?",
+    "answer": "Block storage used by VMs"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a blob container?",
+    "answer": "Grouping of blobs"
+  },
+  {
+    "section": "Storage",
+    "question": "What are Blob access tiers?",
+    "answer": "Hot, Cool, Archive"
+  },
+  {
+    "section": "Storage",
+    "question": "What is a SAS?",
+    "answer": "Time-scoped delegated access to storage"
+  },
+  {
+    "section": "Storage",
+    "question": "What is storage redundancy?",
+    "answer": "Replication strategy (LRS/GRS/etc.)"
+  },
+  {
+    "section": "Storage",
+    "question": "What is lifecycle management for blobs?",
+    "answer": "Rules to tier/move/delete blobs over time"
+  },
+  {
+    "section": "Storage",
+    "question": "What is Azure Backup used for?",
+    "answer": "Back up VMs and workloads"
+  },
+  {
+    "section": "Storage",
+    "question": "What is Azure Site Recovery used for?",
+    "answer": "Disaster recovery replication/failover"
+  },
+  {
+    "section": "Storage",
+    "question": "What is encryption at rest?",
+    "answer": "Data encrypted when stored"
+  },
+  {
+    "section": "Networking",
+    "question": "What is a VNet?",
+    "answer": "A private network in Azure"
+  },
+  {
+    "section": "Networking",
+    "question": "What is a subnet?",
+    "answer": "Segmented IP range within a VNet"
+  },
+  {
+    "section": "Networking",
+    "question": "What is an NSG?",
+    "answer": "Rules controlling inbound/outbound traffic to subnets/NICs"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Azure Firewall?",
+    "answer": "Managed stateful network firewall"
+  },
+  {
+    "section": "Networking",
+    "question": "Public IP vs private IP?",
+    "answer": "Public is internet-routable; private is internal"
+  },
+  {
+    "section": "Networking",
+    "question": "What is VNet peering?",
+    "answer": "Private connectivity between VNets"
+  },
+  {
+    "section": "Networking",
+    "question": "What is a VPN gateway used for?",
+    "answer": "Encrypted connectivity between networks"
+  },
+  {
+    "section": "Networking",
+    "question": "What is ExpressRoute used for?",
+    "answer": "Private dedicated connectivity to Azure"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Azure DNS used for?",
+    "answer": "Host DNS zones/records"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Load Balancer used for?",
+    "answer": "Layer 4 traffic distribution"
+  },
+  {
+    "section": "Networking",
+    "question": "What is Application Gateway used for?",
+    "answer": "Layer 7 routing and WAF support"
+  },
+  {
+    "section": "Networking",
+    "question": "What is NAT Gateway used for?",
+    "answer": "Outbound internet connectivity for a subnet"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is Azure Monitor used for?",
+    "answer": "Collect and analyze metrics and logs"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is a Log Analytics workspace?",
+    "answer": "Central store for logs queried with KQL"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "Metrics vs logs: difference?",
+    "answer": "Metrics are numeric/time-series; logs are detailed records"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is Application Insights used for?",
+    "answer": "App performance monitoring (APM)"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is an alert rule used for?",
+    "answer": "Notify/act when conditions are met"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is a workbook used for?",
+    "answer": "Visualize data in interactive reports"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is Azure Advisor used for?",
+    "answer": "Best-practice recommendations"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is a Recovery Services vault?",
+    "answer": "Container for Backup and Site Recovery data"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What are NSG flow logs used for?",
+    "answer": "Log NSG traffic for analysis"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is Network Watcher used for?",
+    "answer": "Network monitoring and diagnostics"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "What is backup retention?",
+    "answer": "How long backups are kept"
+  },
+  {
+    "section": "Monitoring & Backup",
+    "question": "Why do restore tests?",
+    "answer": "Validate backups are usable"
+  }
+]
